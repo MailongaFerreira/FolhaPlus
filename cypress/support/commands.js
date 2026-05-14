@@ -1,3 +1,5 @@
+require('cypress-downloadfile/lib/downloadFileCommand')
+
 Cypress.Commands.add('adminLogin', () => { 
     cy.get('[name="login"]')
       .type('0100123')
